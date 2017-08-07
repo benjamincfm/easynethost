@@ -1,0 +1,40 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# 此文件包含IP地址到主机名的映射。 
+# 每个条目应保持在单独的行。 IP地址应放在前面，后跟相应的主机名。
+# IP地址和主机名应至少分隔一个空格。
+#
+# 此外，注释（例如这些）可以插到单独一行上或跟随在主机名后面，之间用“#”符号隔开。
+#
+# 例如：
+#
+#      102.54.94.97     rhino.acme.com          # 源服务器
+#       38.25.63.10     x.acme.com              # x客户端主机
+
+# localhost名称在本身内解析，不需要DNS服务器解析。
+#  127.0.0.1       localhost
+#  ::1             localhost
+
+
+# 网易云音乐服务器反代 (由 季寻梦 赞助提供)
+79.137.38.20 music.163.com
+
+# 归属地查询服务器反代
+79.137.38.20 ip.ws.126.net
+
+# HTTPS DNS 服务器屏蔽
+0.0.0.0 music.httpdns.c.163.com
+
+# m10 服务器
+125.39.1.27 m10.music.126.net
+
+
+
+
+
+
+
+
+
